@@ -115,6 +115,10 @@ của bạn, không được gửi đi đâu; bạn có thể xoá nó trong ứ
   <li><strong>Mua bản Pro:</strong> việc mua và thanh toán do <strong>Google Play</strong> xử lý theo chính
       sách của Google. Ứng dụng không nhận thông tin thẻ hay thanh toán của bạn, chỉ nhận xác nhận đã mua để
       mở khoá Pro.</li>
+  <li><strong>Kiểm tra bản mới:</strong> ứng dụng hỏi ứng dụng <strong>Google Play</strong> trên máy xem đã có
+      phiên bản mới chưa, để báo bạn cập nhật. Để trả lời, Google Play dùng thông tin thiết bị và phiên bản ứng
+      dụng; thông tin này được mã hoá và không chia sẻ cho bên thứ ba. Ứng dụng không gửi dữ liệu của bạn
+      trong việc này.</li>
   <li><strong>Thư viện nhận dạng chữ của Google (ML Kit):</strong> ứng dụng dùng ML Kit để đọc chữ trên
       slide ngay trên máy. Ảnh và chữ được xử lý trên thiết bị và <strong>không</strong> được gửi đi. Như mọi
       ứng dụng dùng thư viện này, ML Kit có gửi cho Google một số thông tin kỹ thuật (loại thiết bị, phiên bản
@@ -134,7 +138,7 @@ của bạn, không được gửi đi đâu; bạn có thể xoá nó trong ứ
   <li><strong>Thông báo</strong> — để hiển thị thông báo "đang ghi âm" và tiến độ các việc chạy nền (bắt buộc
       trên Android 13+).</li>
   <li><strong>Giữ CPU thức (wake lock)</strong> — để máy tiếp tục ghi khi màn hình tối đi.</li>
-  <li><strong>Internet và dịch vụ đồng bộ nền</strong> — để tải mô hình/tiện ích, mua bản Pro, và chạy dưới
+  <li><strong>Internet và dịch vụ đồng bộ nền</strong> — để tải mô hình/tiện ích, mua bản Pro, kiểm tra bản mới, và chạy dưới
       nền các việc như chép lời hay đọc chữ trên slide.</li>
 </ul>
 <p>Ứng dụng <strong>không</strong> xin quyền vị trí, danh bạ, điện thoại, SMS hay quyền đọc toàn bộ bộ nhớ.
@@ -217,6 +221,10 @@ sent anywhere; you can delete it in the app or with a file manager.</p>
   <li><strong>Buying Pro:</strong> purchases and payments are handled by <strong>Google Play</strong> under
       Google's policies. The app never receives your card or payment details, only a confirmation of the
       purchase to unlock Pro.</li>
+  <li><strong>Checking for a new version:</strong> the app asks the <strong>Google Play</strong> app on your
+      device whether a newer version exists, so it can tell you to update. To answer, Google Play uses device
+      information and the app version; this is encrypted and not shared with third parties. The app sends none
+      of your data for this.</li>
   <li><strong>Google's text-recognition library (ML Kit):</strong> the app uses ML Kit to read slide text on the
       device. Images and text are processed on the device and are <strong>not</strong> sent anywhere. As with
       any app using this library, ML Kit sends Google some technical information (device type, operating-system
@@ -235,7 +243,7 @@ sent anywhere; you can delete it in the app or with a file manager.</p>
   <li><strong>Notifications</strong> — to show the ongoing "recording in progress" notification and the progress
       of background jobs (required on Android 13+).</li>
   <li><strong>Wake lock</strong> — to keep the CPU awake so recording continues while the screen dims.</li>
-  <li><strong>Internet and background data-sync service</strong> — to download models/extensions, buy Pro, and run
+  <li><strong>Internet and background data-sync service</strong> — to download models/extensions, buy Pro, check for a new version, and run
       background jobs such as transcription and reading slide text.</li>
 </ul>
 <p>The app requests <strong>no</strong> location, contacts, phone, SMS or all-files storage permissions. Backups
